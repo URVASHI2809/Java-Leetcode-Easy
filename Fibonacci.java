@@ -4,7 +4,7 @@ public class Fibonacci{
         public static void main(String[] args) {
             Scanner s = new Scanner(System.in);
             int n = s.nextInt();
-
+ 
             int num = 1;
             int num2 = 1;
             int fibonacci;
