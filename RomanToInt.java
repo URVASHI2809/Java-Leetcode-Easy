@@ -11,7 +11,6 @@ public class RomanToInt {
 
             int total = 0;
             int length = s.length();
-
             for (int i = 0; i < length; i++) {
                 int currentValue = values[s.charAt(i) - 'A'];
                 if (i + 1 < length && currentValue < values[s.charAt(i + 1) - 'A']) {
