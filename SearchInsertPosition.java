@@ -15,7 +15,6 @@ public class SearchInsertPosition {
             }
             return ans;
         }
-
     public static void main(String[] args) {
         SearchInsertPosition searchInsertPosition = new SearchInsertPosition();
         int[] nums = {1,3,5,6};
