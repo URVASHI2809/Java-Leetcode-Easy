@@ -10,7 +10,6 @@ public class IsPrefixOfWord {
                 return i + 1;
             }
         }
-        
         // If no word matches, return -1
         return -1;
     }
