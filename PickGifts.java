@@ -19,8 +19,7 @@ public class PickGifts {
 
     public static void main(String[] args) {
         PickGifts gift = new PickGifts();
-
-        // Example 1: Random array and k value
+        
         int[] gifts = {25, 64, 9, 16};
         int k = 4;
         long result = gift.pickGifts(gifts, k);
