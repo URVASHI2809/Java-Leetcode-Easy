@@ -13,6 +13,7 @@ class ApplyOperations {
                 count++;
             }
         }
+        
         if (i != nums.length) newNums[count] = nums[nums.length-1];
         return newNums;
     }
